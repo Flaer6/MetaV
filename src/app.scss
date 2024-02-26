@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import './assets/sass/reset.scss';
+@import './assets/sass/vars.scss';
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Poppins:wght@500;600;700&display=swap');
+
+body {
+	@apply font-normal text-[18px] text-white leading-[30px] overflow-hidden;
+	font-family: 'Poppins', sans-serif;
+	background: $main-bg;
+}
+h1,
+h2,
+h3 {
+	@apply font-Orbitron font-semibold;
+	span {
+		background: $purple-gd;
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		background-clip: text;
+		text-fill-color: transparent;
+	}
+}
+
+h2 {
+	@apply text-[35px] leading-[44px];
+}
