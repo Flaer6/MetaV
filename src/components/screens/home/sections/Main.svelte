@@ -15,7 +15,7 @@
 				Explore the future of the <span>Metaverse</span>
 			</h1>
 			<p
-				class="text-[20px] pt-[18px] max-w-[500px] max-md:text-[18px] max-md:pt-[15px] max-[455px]:pt-[8px] max-[455px]:text-[16px] max-[455px]:leading-[20px]"
+				class="text-[20px] pt-[18px] max-w-[500px] max-md:text-[18px] max-md:pt-[15px] max-[455px]:pt-[35px] max-[455px]:text-[16px] max-[455px]:leading-[20px]"
 			>
 				Let's explore and create your experience with metaverse.
 			</p>

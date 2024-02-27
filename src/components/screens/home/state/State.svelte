@@ -27,7 +27,7 @@
 </script>
 
 <div
-	class="pt-[40px] flex items-center gap-[68px] max-md:pt-[30px] max-[455px]:pt-[25px] max-[455px]:justify-between max-[455px]:gap-1"
+	class="pt-[40px] flex items-center gap-[68px] max-md:pt-[30px] max-[455px]:pt-[35px] max-[455px]:justify-between max-[455px]:gap-1"
 >
 	{#each states as state, index}
 		<dl class="">
