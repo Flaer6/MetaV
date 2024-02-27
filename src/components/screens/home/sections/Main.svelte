@@ -4,19 +4,25 @@
 	import State from '../state/State.svelte'
 </script>
 
-<Section className="wrapper relative">
-	<div class="inner min-h-screen pt-[70px] flex items-center justify-between">
-		<div class="max-w-[600px]">
-			<h1 class="text-[45px] leading-[68px]">
+<Section className="wrapper relative overflow-hidden">
+	<div
+		class="inner min-h-screen pt-[70px] flex items-center justify-between max-md:flex-col-reverse max-md:justify-stretch max-md:gap-[25px] max-[455px]:pt-[40px] max-sm:justify-center max-sm:items-start"
+	>
+		<div class="max-w-[600px] max-lg:max-w-[460px]">
+			<h1
+				class="text-[45px] leading-[68px] max-md:text-[40px] max-md:leading-[55px] relative z-[1] max-[455px]:text-[30px] max-[455px]:leading-[40px]"
+			>
 				Explore the future of the <span>Metaverse</span>
 			</h1>
-			<p class="text-[20px] pt-[18px] max-w-[500px]">
+			<p
+				class="text-[20px] pt-[18px] max-w-[500px] max-md:text-[18px] max-md:pt-[15px] max-[455px]:pt-[8px] max-[455px]:text-[16px] max-[455px]:leading-[20px]"
+			>
 				Let's explore and create your experience with metaverse.
 			</p>
 			<GetStarted />
 			<State />
 		</div>
-		<div class="img-wrapper">
+		<div class="img-wrapper max-md:max-w-[285px] max-sm:hidden">
 			<img class="" src="/top-img.png" alt="women" loading="lazy" />
 		</div>
 	</div>

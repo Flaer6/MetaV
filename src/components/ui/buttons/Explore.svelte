@@ -9,7 +9,8 @@
 <style lang="scss">
 	@import '../../../assets/sass/vars.scss';
 	.started {
-		@apply relative rounded-[5px] text-[20px] font-medium;
+		@apply relative rounded-[5px] text-[20px] font-medium max-md:text-[18px] max-[455px]:text-[16px];
+
 		background: inherit;
 		transition: all 0.5s;
 		background: $main-bg;

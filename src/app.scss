@@ -7,8 +7,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Poppins:wght@500;600;700&display=swap');
 
 body {
-	@apply font-normal text-[18px] text-white leading-[30px] overflow-hidden;
+	@apply font-normal text-white leading-[30px] overflow-x-hidden;
 	font-family: 'Poppins', sans-serif;
+	font-size: clamp(0.88rem, calc(0.78rem + 0.45vw), 1.13rem);
 	background: $main-bg;
 }
 h1,

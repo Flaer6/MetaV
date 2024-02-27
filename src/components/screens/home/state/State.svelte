@@ -6,7 +6,7 @@
 
 	const numbers = states.map(state => {
 		return tweened(0, {
-			duration: 1600,
+			duration: 1700,
 			easing: cubicOut,
 		})
 	})
@@ -26,10 +26,12 @@
 	})
 </script>
 
-<div class="pt-[40px] flex items-center gap-[68px]">
+<div
+	class="pt-[40px] flex items-center gap-[68px] max-md:pt-[30px] max-[455px]:pt-[25px] max-[455px]:justify-between max-[455px]:gap-1"
+>
 	{#each states as state, index}
 		<dl class="">
-			<dt class="text-[24px] font-medium font-Orbitron">
+			<dt class="text-[24px] font-medium font-Orbitron max-md:text-[22px]">
 				{roundedNumbers[index]}K+
 			</dt>
 			<dd>{state.name}</dd>
