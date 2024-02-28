@@ -54,12 +54,12 @@
 		}
 	}
 	.wrapperMenu {
-		@apply min-h-screen min-w-[50%] absolute top-0 right-0 bg-neutral-950 text-right pt-[105px] origin-right scale-x-0 transition-all ease-out;
+		@apply min-h-screen min-w-[70%] absolute top-0 right-0 bg-neutral-950 text-right pt-[105px] origin-right scale-x-0 transition-all ease-out;
 		&.open {
 			@apply scale-x-100;
 		}
 	}
 	.link {
-		@apply py-[15px] border-b border-solid border-neutral-700 block pr-[15px] transition-all hover:bg-neutral-900;
+		@apply py-[20px] border-t border-solid border-neutral-700 block pr-[15px] transition-all hover:bg-neutral-900 text-[18px];
 	}
 </style>

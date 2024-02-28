@@ -12,7 +12,7 @@
 		@apply relative rounded-[5px] text-[20px] font-medium max-md:text-[18px] max-[455px]:text-[16px];
 
 		background: inherit;
-		transition: all 0.5s;
+		transition: all 0.3s;
 		background: $main-bg;
 		&::before {
 			content: '';
@@ -20,7 +20,7 @@
 			background: $neon;
 		}
 		&:hover {
-			background: $neon;
+			box-shadow: 1px 1px 1px 2px #d10ed1;
 		}
 	}
 </style>

@@ -11,9 +11,10 @@
 	.started {
 		@apply relative rounded-[5px] text-[20px] font-medium box-border max-md:text-[18px] max-[455px]:text-[16px];
 		background: $neon;
-		transition: all 0.5s ease;
+		transition: all 0.3s ease;
 		&:hover {
-			background: $main-bg;
+			// background: $main-bg;
+			@apply shadow-inner shadow-zinc-950;
 		}
 		&::before {
 			content: '';
