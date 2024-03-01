@@ -22,5 +22,7 @@
 		"typescript": "^5.2.2",
 		"vite": "^5.1.4"
 	},
-	"dependencies": {}
+	"dependencies": {
+		"svelte-inview": "^4.0.2"
+	}
 }

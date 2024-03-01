@@ -26,5 +26,5 @@ h3 {
 }
 
 h2 {
-	@apply text-[35px] leading-[44px];
+	@apply text-[35px] leading-[44px] max-sm:text-[31px];
 }

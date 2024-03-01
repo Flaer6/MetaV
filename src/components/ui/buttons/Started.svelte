@@ -9,7 +9,7 @@
 <style lang="scss">
 	@import '../../../assets/sass/vars.scss';
 	.started {
-		@apply relative rounded-[5px] text-[20px] font-medium box-border max-md:text-[18px] max-[455px]:text-[16px];
+		@apply relative inline-block rounded-[5px] text-[20px] font-medium max-md:text-[18px] max-[455px]:text-[16px];
 		background: $neon;
 		transition: all 0.3s ease;
 		&:hover {

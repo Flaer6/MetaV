@@ -6,10 +6,10 @@
 </script>
 
 <button on:click={toggle} class="btn">
-	<span class="line {isOpen ? 'close' : ''}"></span>
-	<span class="line {isOpen ? 'close' : ''}"></span>
-	<span class="line {isOpen ? 'close' : ''}"></span>
-	<span class="line {isOpen ? 'close' : ''}"></span>
+	<span class="line" class:close={isOpen}></span>
+	<span class="line" class:close={isOpen}></span>
+	<span class="line" class:close={isOpen}></span>
+	<span class="line" class:close={isOpen}></span>
 </button>
 
 <nav class="wrapperMenu {isOpen ? 'open' : ''}">
