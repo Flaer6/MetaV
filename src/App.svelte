@@ -4,5 +4,5 @@
 </script>
 
 <Layout>
-	<main slot="main"><Home /></main>
+	<main class="overflow-hidden" slot="main"><Home /></main>
 </Layout>

@@ -15,7 +15,7 @@
 </script>
 
 <div
-	class="pt-[87px] grid grid-cols-3 gap-x-[38px] gap-y-[36px] max-[1075px]:grid-cols-2 max-md:pt-[50px] max-md:grid-cols-1"
+	class="pt-[87px] grid grid-cols-3 gap-x-[38px] justify-center gap-y-[36px] max-[1075px]:grid-cols-2 max-md:pt-[50px] max-md:grid-cols-1"
 >
 	{#each cardsList as card, index (index)}
 		<div
