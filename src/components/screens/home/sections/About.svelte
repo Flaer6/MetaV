@@ -15,7 +15,12 @@
 	}
 </script>
 
-<section class="wrapper" use:inview={options} on:inview_change={handleChange}>
+<section
+	class="wrapper"
+	id="about"
+	use:inview={options}
+	on:inview_change={handleChange}
+>
 	<Container>
 		<div class="inner">
 			<div class="blockImg" class:animateLeft={isInView}>
@@ -23,7 +28,7 @@
 			</div>
 			<div class="infoBlock" class:animateRight={isInView}>
 				<h2>What is <span>Metaverse</span></h2>
-				<p class="pt-[16px] pb-[52px] max-sm:pb-[35px]">
+				<p class="pt-[16px] pb-[52px] text-[#FFFFFFCC] max-sm:pb-[35px]">
 					Adipiscing at in tellus integer. Pellentesque massa placerat duis
 					ultricies lacus. Nisi porta lorem mollis aliquam ut porttitor leo.
 					Venenatis cras..

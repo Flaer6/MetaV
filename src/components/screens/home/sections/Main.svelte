@@ -4,7 +4,7 @@
 	import State from '../state/State.svelte'
 </script>
 
-<section class="wrapper relative overflow-x-hidden">
+<section class="wrapper relative">
 	<Container>
 		<div class="inner">
 			<div class="max-w-[600px] max-lg:max-w-[460px]">
@@ -14,7 +14,7 @@
 					Explore the future of the <span>Metaverse</span>
 				</h1>
 				<p
-					class="text-[20px] pt-[18px] max-w-[500px] max-md:text-[18px] max-md:pt-[15px] max-[455px]:pt-[35px] max-[455px]:text-[16px] max-[455px]:leading-[20px]"
+					class="text-[20px] pt-[18px] max-w-[500px] max-md:text-[18px] max-md:pt-[15px] max-[455px]:pt-[35px] max-[455px]:text-[16px] max-[455px]:leading-[20px] text-[#FFFFFFCC]"
 				>
 					Let's explore and create your experience with metaverse.
 				</p>
@@ -24,7 +24,7 @@
 				</div>
 			</div>
 			<div class="img-wrapper">
-				<img class="" src="/top-img.png" alt="women" loading="lazy" />
+				<img class="" src="/top-img.png" alt="women" />
 				<div class="sm:hidden">
 					<State />
 				</div>

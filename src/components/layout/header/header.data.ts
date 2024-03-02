@@ -15,6 +15,6 @@ export const linksData: ILinks[] = [
 	},
 	{
 		name: 'About Us',
-		link: '#',
+		link: '#about',
 	},
 ]
