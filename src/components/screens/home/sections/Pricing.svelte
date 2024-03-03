@@ -3,7 +3,7 @@
 	import Cards from '../blocks/Cards.svelte'
 </script>
 
-<section class="wrapper">
+<section class="wrapper" id="pricing">
 	<Container>
 		<div class="pt-[165px] max-md:pt-[110px]">
 			<div class="text-center max-w-[602px] mx-auto">
@@ -22,7 +22,7 @@
 	.wrapper {
 		@apply relative;
 		&::after {
-			@apply content-[''] absolute top-0 -right-[300px] w-[350px] h-[500px] bg-[#d10eff] rounded-full blur-[100px] -z-[1];
+			@apply content-[''] absolute top-0 -right-[300px] w-[350px] h-[500px] bg-[#d10eff] rounded-full blur-[180px] -z-[1];
 		}
 	}
 </style>

@@ -7,11 +7,11 @@ export const linksData: ILinks[] = [
 	},
 	{
 		name: 'Resource',
-		link: '#',
+		link: '#resource',
 	},
 	{
 		name: 'Pricing',
-		link: '#',
+		link: '#pricing',
 	},
 	{
 		name: 'About Us',

@@ -4,7 +4,7 @@
 	import State from '../state/State.svelte'
 </script>
 
-<section class="wrapper relative">
+<section class="wrapper">
 	<Container>
 		<div class="inner">
 			<div class="max-w-[600px] max-lg:max-w-[460px]">
@@ -35,6 +35,17 @@
 
 <style lang="scss">
 	@import '../../../../assets/sass/mixins.scss';
+	.wrapper {
+		@apply relative;
+		&::before {
+			content: '';
+			@apply absolute -top-[255px] left-[100px] w-[400px] h-[300px] bg-[#d10eff] blur-[180px] rounded-full -z-[1];
+		}
+		&::after {
+			content: '';
+			@apply absolute top-[180px] -right-[150px] w-[200px] h-[500px] bg-[#d10eff] blur-[180px] rounded-full -z-[1];
+		}
+	}
 	.img-wrapper {
 		@apply relative max-md:max-w-[285px];
 		&::before {
@@ -53,14 +64,6 @@
 	}
 	.inner {
 		@apply min-h-screen pt-[70px] flex items-center justify-between max-md:flex-col-reverse max-md:justify-stretch max-md:gap-[25px] max-[455px]:pt-[40px] max-sm:justify-center max-sm:items-center max-sm:text-center max-sm:pt-0 relative;
-		&::before {
-			content: '';
-			@apply absolute -top-[255px] left-[100px] w-[400px] h-[300px] bg-[#d10eff] blur-3xl rounded-full -z-[1];
-		}
-		&::after {
-			content: '';
-			@apply absolute top-[180px] -right-[150px] w-[200px] h-[500px] bg-[#d10eff] blur-3xl rounded-full -z-[1];
-		}
 	}
 	@keyframes movement {
 		0% {

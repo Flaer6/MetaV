@@ -44,7 +44,7 @@
 		@apply relative;
 		&::before {
 			content: '';
-			@apply absolute -top-[110px] -left-[250px] -z-[1] w-[500px] h-[500px] bg-[#d10eff] blur-3xl rounded-full opacity-40;
+			@apply absolute -top-[110px] -left-[250px] -z-[1] w-[500px] h-[500px] bg-[#d10eff] blur-[180px] rounded-full opacity-40;
 		}
 	}
 	.inner {

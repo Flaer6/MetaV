@@ -1,4 +1,5 @@
 export interface ILinks {
+	img?: string
 	name: string
 	link: string
 }
